@@ -75,5 +75,14 @@ section .infos{
 .board{
     border: 1px solid var(--border-primary-color);
     flex-grow: 1; /*this is used to cover the left over space */
+    display: grid;
+    /* Grid Making */
+    grid-template-columns: repeat(auto-fill , 30px);
+    grid-template-rows: repeat(auto-fill , 30px);
     
+}
+.block{
+    width: 30px;
+    height: 30px;
+    border: 1px solid yellow;
 }
